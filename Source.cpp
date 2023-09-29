@@ -28,7 +28,7 @@ int main() {
 				cout << Series_2(n, n) << endl;
 				break;
 			case EXIT:
-				//exit
+				cout << "Terminating Program\n";
 				break;
 			default:
 				cout << "Error updating choice value\n";
