@@ -1,10 +1,7 @@
 #include <iostream>
 #include <iomanip>
-
 using namespace std;
 
-// Note: when you do not explicitly assign values to the constants, the enum values are assigned sequential 
-//		 integral values starting from 0.
 enum MenuOption { OPTION_1 = 1, OPTION_2, EXIT };
 
 void Menu(MenuOption& choice);
@@ -56,12 +53,6 @@ void Menu(MenuOption& choice) {
 	// Convert user input to MenuOption enum
 	choice = static_cast<MenuOption>(input);
 }
-
-//		Recall that the purpose of a recursive function is that it calls itself directly
-// or indirectly to solve a problem by breaking it down into smaller subproblems.
-//		The idea is that with each recursive call, the function solves a smaller instance
-// of the problem until it reaches a base case, which is a simple case that can be
-// solved directly without further recursion.
 
 double Series_1(int n, int count) {
 	double val{ 0 };
