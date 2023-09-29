@@ -6,7 +6,7 @@ A C++ program that calculates two different series: Series 1 and Series 2.
 
 This C++ program allows you to calculate two distinct mathematical series:
 1. **Series 1:** 1/(0+1) + 1/(1+2) + ... + 1/((n-1)+n)
-2. **Series 2:** (n*n) + ((n-1)*(n-1)) + ... + (2*2) + (1*1)
+2. **Series 2:** (nxn) + ((n-1)x(n-1)) + ... + (2x2) + (1x1)
 
 The program provides a user-friendly menu to select which series to calculate, input the value of 'n', and displays the result. Additionally, it offers the option to exit the program gracefully.
 
@@ -24,12 +24,5 @@ The program provides a user-friendly menu to select which series to calculate, i
 3. Optionally, see the intermediate steps in the calculation.
 4. Get the result.
 5. Repeat or exit as needed.
-
-## Tags
-
-- C++
-- Mathematical Series
-- Recursion
-- User Menu
 
 Feel free to clone this repository and use the program for your mathematical calculations.
